@@ -10,6 +10,6 @@ Latent means hidden as it generates the following hidden variables:
 
 2) Words distribution for each topic (each topic will have a discrete distribution over all words)
 
-The model initialy assigns every word in every document to a random topic. Then the algorithm iterates through each word, unassigning the current topic, decrement the number of topics across the body, and assigning the word to a new topic based on the local probability of topic assignment to the current document and the global (body-wide) probability of word assignments to the current topic.
+The model initialy assigns every word in every document to a random topic. Then the algorithm iterates through each word, unassigning the current topic, decrement the number of topics across the corpus, and assigning the word to a new topic based on the local probability of topic assignment to the current document and the global (corpus-wide) probability of word assignments to the current topic.
 
 In progress...
